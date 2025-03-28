@@ -1,0 +1,17 @@
+/* Upper navbar ko fix karne ke liye */
+.nav_t {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #960909; /* Apne design ke hisaab se color change karo */
+    z-index: 1000;
+  color: white;
+  
+  }
+  
+  /* Niche wale navbar ke liye koi position fixed nahi rakhenge */
+  .nav_b {
+    margin-top: 40px; /* Upper navbar ki height ke hisaab se adjust karo */
+  }
+  
